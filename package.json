@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/chadgarlandscg/csd/issues"
   },
-  "homepage": "https://github.com/chadgarlandscg/csd#readme"
+  "homepage": "https://github.com/chadgarlandscg/csd#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^7.0.0-rc.0",
+    "mocha": "^8.2.1",
+    "request": "^2.88.2",
+    "sinon": "^9.2.2"
+  }
 }
